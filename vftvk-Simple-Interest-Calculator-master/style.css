@@ -1,0 +1,54 @@
+/* Mengatur tampilan dasar halaman utama */
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* Opsional: Menaruh konten di tengah layar agar lebih rapi saat di-preview */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Mengatur gaya teks judul utama (H1) */
+h1 {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Mengatur container utama kalkulator berdasarkan spesifikasi instruksi */
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); /* Opsional: bayangan halus */
+}
+
+/* Penyesuaian opsional untuk elemen form di dalam maindiv agar terlihat rapi */
+.maindiv input, 
+.maindiv button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 5px;
+}
+
+.maindiv input[type="range"] {
+    width: 70%;
+    vertical-align: middle;
+}
+
+/* Mengatur gaya teks hak cipta di bagian bawah */
+footer {
+    margin-top: 20px;
+    color: #888888;
+    font-size: 0.85rem;
+    text-align: center;
+}
